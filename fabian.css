@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+:root{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 2;
+}
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 18px;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("./img/9025885_shopping_cart_icon.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+main{
+    padding-top: 150px;
+}
+
+main .primera{
+    height: 500px;
+    background-image: url("https://picsum.photos/400/300");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--light-color);
+}
+main .primera h1{
+    font-size: 60px;
+    width: 700px;
+    padding-left: 300px;
+    padding-top: 130px;
+    display: flex;
+}
+main .primera p{
+    width: 700px;
+    padding-left: 300px;
+    padding-top: 0px;
+    display: flex;
+}
+main .segunda .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+}
+main .segunda .caja1 span{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+main .segunda .caja1 h1{
+    position: absolute;
+    top: 730px;
+    left: 230px;
+
+}
+main .segunda .caja1 .lap{
+    position: absolute;
+    top: 700px;
+    left: 900px;
+    width: 600px;
+}
+main .segunda .caja2{
+    margin-top: 00px;
+    margin-left: 150px;
+    color: var(--light-color);
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: var(--secondary-color);
+}
+main .segunda .caja3{    margin-top: 00px;
+    margin-left: 0px;
+    color: var(--light-color);
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: var(--secondary-color);
+}
+main .segunda .caja4{    margin-top: 00px;
+    margin-left: 0px;
+    color: var(--light-color);
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: relative;
+    right: 100px;
+    background-color: var(--secondary-color);
+}
+main .segunda .contenedor span{
+    font-size: 30px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+main .segunda .contenedor h3{
+    font-size: 30px;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 100px;
+}
+main .segunda .contenedor p{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+main .segunda .contenedor .p1{
+    position: relative;
+    left: 175px;
+    top: 30px;
+}
+main .segunda .contenedor .p2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+main .segunda .contenedor .p3{
+    position: relative;
+    right: 80px;
+    top: 30px;
+}
+main .tercera{
+    position: relative;
+    top: 80px;
+    height: 500px;
+    background-image: url("https://picsum.photos/400/300");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--light-color);
+    text-align: right;
+}
+main .tercera h1{
+    position: relative;
+    top: 150px;
+    left: 900px;
+    width: 500px;
+    font-size: 40px;
+}
+main .tercera p{
+    position: relative;
+    top: 160px;
+    left: 1000px;
+    width: 400px;
+}
+main .tercera button{
+    position: relative;
+    top:170px;
+    right: 375px;
+    border-bottom-color: var(--light-color);
+}
+main .cuarta .caja5{
+    padding-top: 30px;
+    display: flex;
+    width: max-content;
+    height: 500px;
+}
+main .cuarta .p4{
+    padding-left: 220px;
+    padding-top: 150px;
+    display: flex;
+}
+main .cuarta h2{
+    padding-top: 5px;
+    display: flex;
+    padding-left: 223px;
+    font-size: 33px;
+}
+main .cuarta .caja5 .oferta1 span{
+    color: var(--light-color);
+    display: flex;
+    height: 450px;
+    width: 350px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-image: url("https://picsum.photos/350/450");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 325px;
+}
+main .cuarta .caja5 .oferta2 span{
+    color: var(--light-color);
+    display: flex;
+    height: 450px;
+    width: 350px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-image: url("https://picsum.photos/350/450");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 350px;
+}
+main .cuarta .caja5 .oferta3 .spanpitero{
+    color: var(--light-color);
+    display: flex;
+    height: 450px;
+    width: 350px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-image: url("https://picsum.photos/350/450");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 370px;
+}
+main .cuarta .caja5 .oferta3 .buttoncastroso{
+    margin-top: 30px;
+    margin-left: 300px;
+    color: var(--light-color);
+    display: flex;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-bottom-color: var(--light-color);
+    position: static;
+    right: 160px;
+}
+main .cuarta{
+    justify-content: space-between;
+    align-items: center;
+}
+main .cuarta .caja5 .oferta1 .c1{
+    position: relative;
+    left: 450px;
+    top: 10px;
+}
+main .cuarta .caja5 .oferta2 .c2{
+    position: relative;
+    left: 450px;
+    top: 10px;
+}
+main .cuarta .caja5 .oferta3 .c3{
+    position: relative;
+    left: 450px;
+    top: 10px;
+}
+main .cuarta .caja5 button{
+    position: relative;
+    left: 30px;
+}
+main .cuarta .caja5 .oferta3 .lamamada{
+    position: relative;
+    right: 25px;
+}
+main .quinta{
+    padding-top: 200px;
+    display: flex;
+}
+main .caja10{
+    margin-left: 0px;
+    color: var(--light-color);
+    display: flex;
+    height: 400px;
+    width: 800px;
+    padding-top: 0px;
+    padding-left: 5px;
+    background-color: var(--secondary-color);
+    position: relative;
+    top: 0px;
+    left:500px;
+    border-radius: 10px;
+}
+.cajadeimg{
+    background-color: var(--dark-color);
+    background-image: url("https://picsum.photos/350/450");
+    width: 300px;
+    height: 300px;
+    padding-top: 0;
+    font-size: 10px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2630px;
+    right: 900px;
+    z-index: 1;
+}
+main .quinta .caja11{
+    position: relative;
+    top: 100px;
+    width: 400px;
+    left: 300px;
+}
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("carrro.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: var(--dark-color);
+    background-color: var(--dark-color);
+    
+}
+.abajo{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 3050px;
+}
+.logomamon{
+    position: absolute;
+    top:3100px;
+    left: 200px;
+    z-index: 1;
+}
+.button1{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: 2px solid;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: var(--light-color);
+    position: relative;
+    left: -120px;
+}
+.button1:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-color: var(--primary-color);
+}
+.buttonde3{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    width: 7vw;
+    height: 5vh;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: 2px solid;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: none;
+    position: absolute;
+    left: 100px;
+}
+.buttonde3:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+.calis{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: 2px solid;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: var(--light-color);
+    position: relative;
+    right: -300px;
+    top: 30px;
+}
+.calis:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-color: var(--primary-color);
+}
+.buttondeabajo{
+    position:absolute;
+    right: 550px;
+    top: 2500px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    width: 15vw;
+    height: 6vh;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: 2px solid;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: none;
+}
+.buttondeabajo:hover{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
